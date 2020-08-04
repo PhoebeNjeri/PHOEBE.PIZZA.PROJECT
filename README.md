@@ -10,7 +10,8 @@ Behaviour	Input	Output Form to be filled	User enters required credentials	Alert 
 When the "Order" button is clicked it adds the clicked items to the to price table and once the user clicks on the checkout button and puts in their location the application informs him or her of successful submission.
 
 ## Installation Requirements
-Create an account on Github Fork the repository from Github:    pizza.git Clone the link Open the link from where the repository is saved
+Create an account on Github Fork the repository from Github:https://github.com/PhoebeNjeri/PHOEBE.PIZZA.PROJECT
+* git Clone the link Open the link from where the repository is saved
 
 ## Known Bugs
 
