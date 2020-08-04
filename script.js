@@ -43,4 +43,29 @@ function Pizza(size, toppings, crust, total, orderNo) {
   
     $("#pizza").append(newRow);
   });
+  $(".btn.check-out").click(function() {
+    $(".btn.add-pizza").hide();
+    $(".btn.check-out").hide();
+    $(".additional-info").show();
+    $(".additional-info .location").hide();
+    grandTotal = grandTotal + total;
+  
+    $(".additional-info h3 span").html(grandTotal);
+  });
+  
+    $(".additional-info h5").hide();
+    $(".additional-info .location").show();
+    $(".additional-info h3 span").html(grandTotal + 200);
+  });
+  
+    $(".additional-info h5").hide();
+    $(".additional-info .location").show();
+  });
+  
+  $(".btn.complete").click(function() {
+    var location = $(".additional-info .location input").val();
+    $(".additional-info h4").show();
+    $(".additional-info .location").hide();
+    $(".additional-info h4 span").html(location);
+  });
   
