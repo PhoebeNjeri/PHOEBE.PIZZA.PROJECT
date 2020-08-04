@@ -2,6 +2,7 @@ body{
     text-align: center;
     background-color: aquamarine;
     background-image: url(images/gbarkz-cMHzDQ8ZPMM-unsplash.jpg);
+    background-size: cover;
 }
 .fa {
     padding: 20px;
